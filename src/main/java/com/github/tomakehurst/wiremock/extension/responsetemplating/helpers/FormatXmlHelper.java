@@ -65,7 +65,6 @@ public class FormatXmlHelper extends AbstractFormattingHelper {
 
   public FormatXmlHelper() {
     TransformerFactory factory = TransformerFactory.newInstance();
-    factory.setAttribute("indent-number", 2);
     factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
     factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
     transformerFactory = factory;
